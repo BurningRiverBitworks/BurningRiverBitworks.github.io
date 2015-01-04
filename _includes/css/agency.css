@@ -271,10 +271,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     background: url(img/header-bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 }
 
 header .intro-text {
