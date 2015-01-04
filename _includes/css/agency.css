@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    background-color:#3a3a3a;
+    background: url(img/bg_texture.png) repeat; 
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
