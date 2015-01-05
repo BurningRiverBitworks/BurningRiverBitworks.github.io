@@ -110,9 +110,6 @@ body  {     color:#fff;
              margin:0px auto;
              }
 
-
-
-
 h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -227,7 +224,17 @@ h1, h2, h3, h4, p {padding:10px;
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+/* ----main nav ----------------------------------------------------------------------------------*/
 
+.logo    {max-width: 200px;}
+
+.nav     {margin-top:44px;}
+
+.navlinks a:-webkit-any-link {
+                                color: #fff;
+                                text-decoration: none;
+                                cursor: auto;
+} 
 
 
 /* ==========================================================================
