@@ -168,6 +168,66 @@ h1, h2, h3, h4, p {padding:10px;
 
 /* --- grid system -------------------------------------------------------*/
 
+.grid100,
+.grid90,
+.grid80,
+.grid75,
+.grid70,
+.grid60,
+.grid50,
+.grid40,
+.grid34,
+.grid33,
+.grid25,
+.grid20,
+.grid10 {float:left;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+        padding:10px;}
+
+.grid100 {width:100%}
+
+.grid90 {width:90%}
+
+.grid80 {width:80%}
+
+.grid70 {width:70%}
+
+.grid75 {width:75%}
+
+.grid60 {width:60%}
+
+.grid50 {width:50%}
+
+.grid40 {width:40%}
+
+.grid34 {width:34%}
+
+.grid33 {width:33%}
+
+.grid25 {width:25%}
+
+.grid20 {width:20%}
+
+.grid10 {width:10%}
+
+/* ------------------------the clear fix use this to keep things in vertical rows together  ------*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 
 
 /* ==========================================================================
