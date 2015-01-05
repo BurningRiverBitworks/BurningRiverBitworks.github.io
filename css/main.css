@@ -236,6 +236,12 @@ h1, h2, h3, h4, p {padding:10px;
                                 cursor: auto;
 } 
 
+.navlinks a:-webkit-any-link:hover {
+                                color: #fff;
+                                text-decoration: none;
+                                cursor: auto;
+} 
+
 
 /* ==========================================================================
    Helper classes
