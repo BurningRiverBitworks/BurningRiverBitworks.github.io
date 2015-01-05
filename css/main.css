@@ -136,6 +136,11 @@ h1 {
 
 .right   {text-align: right;}
 
+.small   {  font-size: 10px;
+            font-family: helvetica, arial, sans-serif;
+            color:#fff;
+            }
+
 
 h2 {
     font-family: 'Droid Serif', serif;
