@@ -141,6 +141,12 @@ h1 {
             color:#fff;
             }
 
+.sm_icons   {max-width:44px;}
+
+.twitter:after   {content: "follow us on twitter!";}
+
+.img  {width:100%;}
+
 
 h2 {
     font-family: 'Droid Serif', serif;
