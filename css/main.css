@@ -96,7 +96,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body  {color:#3a3a3a;}
+body  {     color:#fff;
+            background: 
+             url(../img/top_bar_bg.png) repeat-x,
+            url(../img/wood_bg.jpg)repeat-x top fixed,
+
+            #1d1d1d;
+            
+}
 
 #wrapper    {width:100%;
              max-width:1200px;
@@ -159,7 +166,7 @@ h1, h2, h3, h4, p {padding:10px;
 
 .title_box  p  {margin-top:-12px;}
 
-
+/* --- grid system -------------------------------------------------------*/
 
 
 
