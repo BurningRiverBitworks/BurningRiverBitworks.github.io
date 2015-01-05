@@ -128,6 +128,14 @@ h1 {
 
 .blue_bg  {    background: rgba(38,169,227,0.6);}
 
+.white_bg  {    background: rgba(255,255,255,0.8);}
+
+.center   {text-align: center;}
+
+.left   {text-align: left;}
+
+.right   {text-align: right;}
+
 
 h2 {
     font-family: 'Droid Serif', serif;
@@ -159,6 +167,8 @@ p {
     font-size: 18px;
     line-height: 21px;
     margin: 0 0 23px 0;
+    font-weight: 100;
+    letter-spacing: 0.1em;
     }
 
 
@@ -167,6 +177,19 @@ h1, h2, h3, h4, p {padding:10px;
                  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
                  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
                  box-sizing: border-box;         /* Opera/IE 8+ */}
+
+
+a:-webkit-any-link, a:-webkit-any-link:visited {
+            color: #29abe1;
+            text-decoration: none;
+            cursor: auto;
+}
+
+ a:-webkit-any-link:hover {
+            color: #29abe1;
+            text-decoration: underline;
+            cursor: auto;
+}
 
 
 /* --- grid system -------------------------------------------------------*/
@@ -254,11 +277,20 @@ h1, h2, h3, h4, p {padding:10px;
 
 /* hero section --------------------------------*/
 
-.hero  {min-height: 400px;
+#hero  {min-height: 400px;
         margin-top: 10px;
 outline: 1px dashed white;}
 
-.hero .h2  {margin-top:120px;}
+#hero .h2  {margin-top:120px;}
+
+
+#work  {min-height: 400px;
+        margin-top: 10px; 
+        outline: 1px dashed white;}
+
+.assemblage_logo  {max-width:400px;}
+
+
 
 
 /* ==========================================================================
