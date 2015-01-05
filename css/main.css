@@ -99,7 +99,7 @@ textarea {
 body  {     color:#fff;
             background: 
              url(../img/top_bar_bg.png) repeat-x,
-            url(../img/wood_bg.jpg)repeat-x top fixed,
+            url(../img/wood_bg.jpg)repeat top fixed,
 
             #1d1d1d;
             
@@ -124,7 +124,9 @@ h1 {
     font-style: italic;
     }
 
-.black_bg  {    background: rgba(0,0,0,0.5);}
+.black_bg  {    background: rgba(0,0,0,0.3);}
+
+.blue_bg  {    background: rgba(38,169,227,0.6);}
 
 
 h2 {
@@ -166,10 +168,6 @@ h1, h2, h3, h4, p {padding:10px;
                  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
                  box-sizing: border-box;         /* Opera/IE 8+ */}
 
-
-.title_box  h2, h4  {margin-top:-18px;}
-
-.title_box  p  {margin-top:-12px;}
 
 /* --- grid system -------------------------------------------------------*/
 
@@ -244,11 +242,23 @@ h1, h2, h3, h4, p {padding:10px;
                                 cursor: auto;
 } 
 
-.navlinks a:-webkit-any-link:hover {
+.navlinks a:-webkit-any-link:visited {
                                 color: #fff;
+} 
+
+.navlinks a:-webkit-any-link:hover {
+                                color: #29abe1;
                                 text-decoration: none;
                                 cursor: auto;
 } 
+
+/* hero section --------------------------------*/
+
+.hero  {min-height: 400px;
+        margin-top: 10px;
+outline: 1px dashed white;}
+
+.hero .h2  {margin-top:120px;}
 
 
 /* ==========================================================================
