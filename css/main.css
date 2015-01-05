@@ -99,8 +99,9 @@ textarea {
 body  {color:#3a3a3a;}
 
 #wrapper    {width:100%;
-             max-width:1200;
-             margin:0px auto;}
+             max-width:1200px;
+             margin:0px auto;
+             }
 
 
 
