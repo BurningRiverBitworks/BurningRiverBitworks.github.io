@@ -183,7 +183,6 @@ fieldset[disabled] .btn-xl.active {
     height: 86px;
     margin-bottom: 3px;
     margin-top: 3px;
-    color: #{{ site.color.primary }};
 
 }
 
